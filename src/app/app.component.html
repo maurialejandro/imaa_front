@@ -1,37 +1,76 @@
 <!-- Imaa soluciones comenzó --->
-<div class="row">
-<nav>
-    <div class="nav-wrapper  light-blue darken-2">
-    <a href="#" class="brand-logo">IMAA</a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="">Servicios</a></li>
-        <li><a href="">Soluciones</a></li>
-        <li><a href=""></a></li>
-    </ul>
+<header>
+<!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-scroll">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarIMAA"
+        aria-controls="navbarIMAA"
+        aria-expanded="true"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarIMAA">
+        <!-- Navbar brand -->
+        <a class="navbar-brand mt-2 mt-lg-0" routerLink="/">
+          <!-- Agregar icon pro -->
+            <img
+              src="../assets/IMAA.png"
+              height="40"
+              alt="IMAA"
+              loading="lazy"
+            />
+        </a>
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/">Servicios</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+
+      <!-- Right elements -->
     </div>
-</nav>
+    <!-- Container wrapper -->
+  </nav>
+<!-- Navbar -->
+  <div 
+    id="intro"
+    class="bg-image"
+    style="
+      background-image: url(../assets/sistemas-de-informacion.jpg);
+      height: 100vh;
+    "
+  >
+  <div class="mask text-white" style="background-color: rgba(0, 0, 0, 0.6); height: 100vh;">
+    <div class="container d-flex align-items-center text-center h-100">
+      <div>
+        <h1 class="mb-5">This is title</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis molestiae
+          laboriosam numquam expedita ullam saepe ipsam, deserunt provident corporis,
+          sit non accusamus maxime, magni nulla quasi iste ipsa architecto? Autem!
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+</header>
 <router-outlet>
 </router-outlet>
-</div>
-<footer class="page-footer light-blue darken-2">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Ubicación</h5>
-          <p class="grey-text text-lighten-4">Los Lagos, Los Rios, Volcan Villarica #783</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Información</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Información</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      © 2022 IMAA 
-      <a class="grey-text text-lighten-4 right" href="www.imaa.com">www.imaa.com</a>
-      </div>
-    </div>
-</footer>
