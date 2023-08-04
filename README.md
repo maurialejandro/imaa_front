@@ -28,3 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Correr en Apache
 Configurar .conf DocumentRoot -> /var/www/html/proyecto/dist/proyecto 
 		 <Directory> -> "/var/www/html/proyecto/dist/proyecto"
+	Add configuration to show pages
